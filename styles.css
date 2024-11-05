@@ -1,54 +1,48 @@
-body {
-    background-color: #f8f8f8;
+body{
+	background-color:#f8f8f8;
+	
+}
+.book{
+	.h1{
+	display:flex;
+	justify-content:center;
+	}
+
+.white{
+
+	border:1px solid white;
+	height:30px;
+	background-color:white;}
+
+.img{
+	padding-top:20px;
+	margin-left:170px;
+ 
+}
+.imgHeading{
+	margin-left:20px;
+}
+.author{
+	margin:20px;
 }
 
-.book-library {
-    border: 1px solid lightgrey;
-    box-shadow: 8px 0 15px rgba(211, 211, 211, 0.6), 
+.rupees{
+	
+     border:1px solid #2ecc71; 
+	background-color:#2ecc71;
+	margin:20px;
+	border-radius:3px;
+	display:flex;
+	justify-content:center;
+	
+}
+.book-library{
+	border:1px solid lightgrey;
+	 box-shadow: 8px 0 15px rgba(211, 211, 211, 0.6),  /* Light grey shadow on right */
                 -8px 0 15px rgba(211, 211, 211, 0.6);
-    border-radius: 7px;
-    padding: 20px;
+	border-radius:7px;
 }
 
-.book {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-}
-
-.h1 {
-    display: flex;
-    justify-content: center;
-}
-
-.white {
-    border: 1px solid white;
-    height: 30px;
-    background-color: white;
-    margin-bottom: 10px;
-}
-
-.img {
-    padding-top: 20px;
-    margin-left: 170px;
-}
-
-.imgHeading {
-    margin-left: 20px;
-}
-
-.author {
-    margin: 20px;
-}
-
-.rupees {
-    border: 1px solid #2ecc71;
-    background-color: #2ecc71;
-    color: #ffffff; /* Ensure text is visible */
-    margin: 20px;
-    border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    padding: 5px 10px; /* Add some padding for better appearance */
-}
+	
+	
+} 
