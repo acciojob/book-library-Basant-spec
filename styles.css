@@ -3,6 +3,7 @@ body{
 	
 }
 .book{
+	
 	.h1{
 	display:flex;
 	justify-content:center;
@@ -29,7 +30,7 @@ body{
 .rupees{
 	
      border:1px solid #2ecc71; 
-	background-color:#2ecc71;
+	background-color:rgb(46, 204, 113);;
 	margin:20px;
 	border-radius:3px;
 	display:flex;
