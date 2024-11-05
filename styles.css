@@ -55,7 +55,7 @@ body {
 }
 
 /* Book price */
-.rupees {
+.book .rupees {
     background-color: #2ecc71;
     color: #ffffff;
     padding: 5px 10px;
